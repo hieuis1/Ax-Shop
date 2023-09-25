@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3e4d0824.css",
+    "main.js": "/static/js/main.c6836d1c.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/carousel2.jpg": "/static/media/carousel2.3c4376d6c11b3a34baeb.jpg",
+    "static/media/carousel3.jpg": "/static/media/carousel3.b1b817bfcfc9846a3695.jpg",
+    "static/media/carousel1.jpg": "/static/media/carousel1.49b748b815347b747839.jpg",
+    "static/media/company.png": "/static/media/company.96c12ddff728e46683a7.png",
+    "static/media/shipper.png": "/static/media/shipper.cbe32a7b3ce42229d31c.png",
+    "static/media/momoPAy.jpg": "/static/media/momoPAy.8d16eff2767ec8767031.jpg",
+    "static/media/bg_1.jpg.webp": "/static/media/bg_1.jpg.70bf900796ba33d14371.webp",
+    "static/media/b3.jpg": "/static/media/b3.fe8956f5cff1753ade59.jpg",
+    "static/media/b1.jpg": "/static/media/b1.6f4055b1f3ea7839e178.jpg",
+    "static/media/b2.jpg": "/static/media/b2.977dd9b3843e6fd93452.jpg",
+    "static/media/atm.png": "/static/media/atm.a03cda5e953c9f5bf4f4.png",
+    "static/media/MoMo_Logo.png": "/static/media/MoMo_Logo.105c1788d7f9c1acb0a1.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.3e4d0824.css.map": "/static/css/main.3e4d0824.css.map",
+    "main.c6836d1c.js.map": "/static/js/main.c6836d1c.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3e4d0824.css",
+    "static/js/main.c6836d1c.js"
+  ]
+}
