@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:ital,wght@0,400;0,500;1,300;1,400;1,500&display=swap');
+
+.slide-img{
+    height: 80vh;
+    width: 100vw;
+    object-fit: cover;
+}
+
+.carousel-indicators{
+    button{
+        width: 10px !important;
+        height: 10px !important;
+        border-radius: 50%;
+    }
+}
+
+.carousel{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   .carousel-item{
+        .carousel-caption{
+            transform: translate(-50%,-50%);
+            padding: 0;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            border-radius: 10px;
+            top: 50%;
+            left: 50%;
+            h3{
+                font-size: 48px;
+                color: #616060;
+                font-weight: 400;
+                margin: 20px 0 22px;
+            }
+            .desc{
+                margin-top: 5px;
+                color: #998d80;
+                &::after{
+                    content: '';
+                    margin-top: 10px;
+                    width: 50% !important;
+                    transform: translateX(50%);
+                    height: 1px !important;
+                    background: #ccc;
+                    display: block;
+                    margin-bottom: 10px;
+                }
+            }
+            a{
+                text-decoration: none;
+                
+                button{
+                    background-color: #e99c2e;
+                    outline:  none;
+                    border: none;  
+                }
+            }
+            .header{
+                color: #998d80;
+            }
+            .btn{
+                margin: auto;
+            }
+        }
+        
+    }
+    .item1{
+        .carousel-caption{
+            transform: translate(-100%,-80%);
+        }
+    }
+    .item2{
+        .carousel-caption{
+            transform: translate(-2%,-80%);
+        }
+    }
+    .item3{
+        .carousel-caption{
+            transform: translate(-50%,-80%);
+        }
+    }
+}

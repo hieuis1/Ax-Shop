@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+.detail{
+    .containerDetail{
+        width: 1300px;
+        margin-top: 30px;
+        padding: 100px 50px;
+        box-shadow: 0 2px 7px #dfdfdf;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .review{
+        font-size: 18px;
+        .sartRating{
+            width: 27px;
+            padding: 0;
+            p{
+                margin-top: 4px;
+                margin-right: 2px;
+                color: #ee4d2d;
+            }
+        }
+        .starDetail{
+            padding-left: 2px;
+            color: #ee4d2d;
+            width: 110px;
+        }
+    }
+    .reviewDetail{
+        margin-left: 2px;
+    }
+    .price{
+        padding: 5px 5px;
+        font-weight: 600;
+        font-size: 20px;
+        color: #ee4d2d;
+        background-color: #fafafa;
+        margin-bottom: 10px;
+    }
+    button{
+        background-color: #ee4d2d;
+        border: none;
+    }
+    p{
+        span{
+            color: #736e6e;
+            font-size: 17px;
+            text-decoration: none;
+        }
+    }
+    .action{
+        display: flex;
+        gap: 5px;
+        cursor: pointer;
+        svg{
+            height: 20px;
+            width: 20px;
+            vertical-align: middle;
+            background: white;
+            padding: 4px;
+            box-shadow: 0 2px 7px #dfdfdf;
+        }
+        .hide{
+            display: none;
+        }
+    }
+}
+.backHome{
+    h2{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+    }
+    p{
+        font-size: 18px;
+        padding: 12px 0;
+        cursor: pointer;
+    }
+    width: 1320px;
+    margin-top: 20px;
+}
+.commentDetail{
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    .commentItem{
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 10px;
+        width: 80%;
+        margin-bottom: 20px;
+        img{
+            width: 50px;
+            height: 50px;
+        }
+        .item_avatar{
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+    }
+}
+.comment{
+    img{
+        width: 50px;
+        height: 50px;
+
+    }
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding-bottom: 50px;
+    form{
+        width: 80%;
+        height: 50px;
+        outline: none;
+        textarea{
+            width: 100%;
+            height: 100%;
+            outline: none;
+            border-radius: 5px;
+        }
+        button{
+            margin-left: auto;
+        }
+    }
+    
+}

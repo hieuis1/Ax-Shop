@@ -1,0 +1,34 @@
+.admin{
+    .admin-left{
+        height: 90vh;
+        border: 1px #ccc solid;
+        padding: 0;
+    }
+    .avatar{
+        h3{
+            text-align: center;
+            padding: 80px 0;
+            color: white;
+            background-color: #0090ffc7;
+            margin-bottom: 0;
+        }
+    }
+    .navBar{
+        ul{
+            list-style: none;
+            padding: 0;
+            li{
+                border: 1px solid #ccc;
+                a{
+                    color: #333;
+                    text-decoration: none;
+                    display: block;
+                    padding: 10px 20px;
+                }
+                .active{
+                    border-right: 5px solid orange;
+                }
+            }
+        }
+    }
+}

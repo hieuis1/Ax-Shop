@@ -1,0 +1,22 @@
+.viewProduct{
+    h3{
+        margin-top: 20px;
+    }
+    .icon{
+        cursor: pointer;
+        display: flex;
+        gap: 10px;
+        .edit{
+            color: green;
+        }
+        .delete{
+            color: red;
+        }
+        
+    }
+    img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+}

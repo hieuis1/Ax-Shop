@@ -1,0 +1,39 @@
+.productList{
+    padding: 40px 0px 0px 5px;
+    font-size: 18px;
+    background-color:#fff;
+    .top{
+        border-bottom: #ccc 2px solid;
+        
+    }
+    .gridSetting{
+        display: flex;
+        gap: 10px;
+        .setting{
+            cursor: pointer;
+            @extend .gridSetting;
+            .s1{
+                color: rgba(223, 122, 14, 0.785);
+            }
+            .s2{
+                color: rgba(16, 50, 221, 0.735);
+            }
+        }
+    }
+    .search{
+        display: flex;
+        gap: 5px;
+        input{
+            border: 1px solid #ccc;
+            outline: none;
+        }
+    }
+    .sortProduct{
+        border: none;
+        outline: none;
+    }
+    .bottom{
+        border-bottom: 1px solid #ccc;
+    }
+    
+}

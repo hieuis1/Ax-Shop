@@ -1,0 +1,53 @@
+.btn{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    .btnActive{
+        background-color: #2a73dd;
+        border: 1px solid #ccc;
+        margin: 0;
+        width: 20px;
+        height: 20px;
+        line-height: 20px;
+        padding-bottom: 5px;
+        color: white;
+
+
+    }
+    .quantity{
+        margin-top: -2px;
+    }
+    
+}
+.cart{
+    .head{
+        border-bottom: 2px solid #2a73dd;
+        border-top: 2px solid #2a73dd;
+    }
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    
+    .checkout{
+        box-shadow: 0 2px 7px #dfdfdf;
+        padding: 20px 40px;
+        width: 25vw;
+        h4{
+            span{
+                font-size: 18px;
+
+            }
+        }
+        .total{
+            display: flex;
+            justify-content: space-between;
+            .totalPrice{
+                color: #cb4210;
+                font-size: 25px;
+                font-weight: 600;
+            }
+        }
+    }
+}

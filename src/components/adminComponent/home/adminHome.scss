@@ -1,0 +1,25 @@
+.adminHome{
+    margin-top: 30px;
+    p{
+        font-size: 25px;
+    }
+    .item{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .earning{
+        border: 1px solid #ccc;
+        border-bottom: 3px solid orange;
+        padding: 15px 20px;
+        border-radius: 5px;
+    }
+    .products{
+        @extend .earning;
+        border-bottom: 3px solid rgb(193, 11, 193);
+    }
+    .order{
+        @extend .earning;
+        border-bottom: 3px solid rgb(0, 157, 255);
+    }
+}
